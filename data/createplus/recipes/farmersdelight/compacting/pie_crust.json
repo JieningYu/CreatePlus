@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "farmersdelight"
+       ]
+     }
+   ],
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "tag": "c:crops/wheat"
+      },
+      {
+        "tag": "c:crops/wheat"
+      },
+      {
+        "tag": "c:crops/wheat"
+      },
+      {
+        "fluid": "milk:still_milk",
+        "nbt": {},
+        "amount": 27000
+      }
+    ],
+    "results": [
+      {
+        "item": "farmersdelight:pie_crust"
+      }
+    ]
+  }

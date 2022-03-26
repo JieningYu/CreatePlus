@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "minecraft:prismarine"
+      },
+      {
+        "item": "minecraft:prismarine"
+      }
+    ],
+    "results": [
+      {
+        "item": "minecraft:prismarine_bricks"
+      }
+    ]
+  }

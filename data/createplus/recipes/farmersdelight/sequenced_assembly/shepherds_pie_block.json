@@ -1,0 +1,76 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "farmersdelight"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:bowl"
+  },
+  "transitionalItem": {
+    "item": "minecraft:bowl"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bowl"
+        },
+        {
+          "tag": "fabric:cooked_mutton"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:bowl"
+        },
+        {
+          "item": "minecraft:baked_potato"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:bowl"
+        },
+        {
+          "fluid": "milk:still_milk",
+          "nbt": {},
+          "amount": 9000
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:bowl"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:shepherds_pie_block",
+      "chance": 1
+    }
+  ],
+  "loops": 3
+}

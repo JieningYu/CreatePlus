@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+		}
+	],
+  "type": "techreborn:compressor",
+  "power": 10,
+  "time": 300,
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:iron_sheet",
+      "count": 9
+    }
+  ]
+}

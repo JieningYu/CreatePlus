@@ -1,0 +1,20 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+		}
+	],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "create:powdered_obsidian"
+    }
+  ],
+  "result": {
+    "item": "techreborn:obsidian_small_dust",
+    "count": 4
+  }
+}

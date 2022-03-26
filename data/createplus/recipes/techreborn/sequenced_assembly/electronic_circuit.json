@@ -1,0 +1,80 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "techreborn"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:refined_iron_plates"
+  },
+  "transitionalItem": {
+    "item": "techreborn:refined_iron_plate"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "techreborn:refined_iron_plate"
+        },
+        {
+          "tag": "c:dusts/redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "techreborn:refined_iron_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "techreborn:refined_iron_plate"
+        },
+        {
+          "item": "techreborn:insulated_copper_cable"
+        }
+      ],
+      "results": [
+        {
+          "item": "techreborn:refined_iron_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "techreborn:refined_iron_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "techreborn:refined_iron_plate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "techreborn:electronic_circuit",
+      "count": 2,
+      "chance": 80
+    },
+    {
+      "item": "techreborn:refined_iron_plate",
+      "chance": 10
+    },
+    {
+      "item": "techreborn:cell",
+      "chance": 10
+    }
+  ],
+  "loops": 3
+}

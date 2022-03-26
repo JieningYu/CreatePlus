@@ -1,0 +1,29 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "farmersdelight"
+       ]
+     }
+   ],
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "fluid": "minecraft:water",
+        "nbt": {},
+        "amount": 40500
+      },
+      {
+        "tag": "c:crops/wheat"
+      },
+      {
+        "tag": "c:crops/wheat"
+      }
+    ],
+    "results": [
+      {
+        "item": "farmersdelight:raw_pasta"
+      }
+    ]
+  }

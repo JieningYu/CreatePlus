@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+           "condition": "fabric:all_mods_loaded",
+           "values": [
+             "farmersdelight"
+           ]
+         }
+       ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "minecraft:cookie"
+      },
+      {
+        "fluid": "create:honey",
+        "nbt": {},
+        "amount": 2500
+      }
+    ],
+    "results": [
+      {
+        "item": "farmersdelight:honey_cookie"
+      }
+    ]
+  }

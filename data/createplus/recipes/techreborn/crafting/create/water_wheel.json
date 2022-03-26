@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "techreborn"
+      ]
+		}
+	],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:wood_plates"
+    },
+    "C": {
+      "item": "create:large_cogwheel"
+    }
+  },
+  "result": {
+    "item": "create:water_wheel",
+    "count": 2
+  }
+}

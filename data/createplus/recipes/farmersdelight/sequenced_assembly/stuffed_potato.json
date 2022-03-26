@@ -1,0 +1,76 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "farmersdelight"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:baked_potato"
+  },
+  "transitionalItem": {
+    "item": "minecraft:baked_potato"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:baked_potato"
+        },
+        {
+          "tag": "fabric:cooked_beef"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:baked_potato"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:baked_potato"
+        },
+        {
+          "tag": "c:crops/carrot"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:baked_potato"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:baked_potato"
+        },
+        {
+          "fluid": "milk:still_milk",
+          "nbt": {},
+          "amount": 27000
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:baked_potato"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:stuffed_potato",
+      "chance": 1
+    }
+  ],
+  "loops": 1
+}
