@@ -7,19 +7,19 @@
        ]
      }
    ],
-    "type": "create:compacting",
-    "ingredients": [
-      {
-        "item": "farmersdelight:canvas"
-      },
-      {
-        "item": "farmersdelight:straw"
-      }
-    ],
-    "results": [
-      {
-        "item": "farmersdelight:tatami",
-        "count": 2
-      }
-    ]
-  }
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "farmersdelight:canvas"
+    },
+    {
+      "item": "farmersdelight:straw"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:tatami",
+      "count": 2
+    }
+  ]
+}
