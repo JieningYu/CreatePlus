@@ -1,0 +1,74 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "ae2"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:silicon"
+  },
+  "transitionalItem": {
+    "item": "ae2:silicon"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:silicon"
+        },
+        {
+          "item": "ae2:silicon_press"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:silicon"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ae2:silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:silicon"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "ae2:silicon"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:silicon"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:printed_silicon",
+      "count": 2,
+      "chance": 80
+    },
+    {
+      "item": "ae2:silicon",
+      "chance": 20
+    }
+  ],
+  "loops": 1
+}

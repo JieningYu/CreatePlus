@@ -1,0 +1,74 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "ae2"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:certus_quartz_crystal"
+  },
+  "transitionalItem": {
+    "item": "ae2:certus_quartz_crystal"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ae2:certus_quartz_crystal"
+        },
+        {
+          "item": "ae2:calculation_processor_press"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:certus_quartz_crystal"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ae2:certus_quartz_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:certus_quartz_crystal"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "ae2:certus_quartz_crystal"
+        }
+      ],
+      "results": [
+        {
+          "item": "ae2:certus_quartz_crystal"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:printed_calculation_processor",
+      "count": 2,
+      "chance": 80
+    },
+    {
+      "item": "ae2:certus_quartz_crystal",
+      "chance": 20
+    }
+  ],
+  "loops": 1
+}

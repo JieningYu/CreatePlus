@@ -1,0 +1,74 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "ae2"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:gems/diamond"
+  },
+  "transitionalItem": {
+    "item": "minecraft:diamond"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond"
+        },
+        {
+          "item": "ae2:engineering_processor_press"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:diamond"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:printed_engineering_processor",
+      "count": 2,
+      "chance": 80
+    },
+    {
+      "item": "minecraft:diamond",
+      "chance": 20
+    }
+  ],
+  "loops": 1
+}

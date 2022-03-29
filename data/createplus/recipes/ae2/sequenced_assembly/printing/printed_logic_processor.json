@@ -1,0 +1,74 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "ae2"
+       ]
+     }
+   ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/gold"
+  },
+  "transitionalItem": {
+    "item": "create:golden_sheet"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:golden_sheet"
+        },
+        {
+          "item": "ae2:logic_processor_press"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:golden_sheet"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:printed_logic_processor",
+      "count": 2,
+      "chance": 80
+    },
+    {
+      "item": "create:golden_sheet",
+      "chance": 20
+    }
+  ],
+  "loops": 1
+}
