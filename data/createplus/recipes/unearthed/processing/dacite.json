@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "unearthed"
+      ]
+		}
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "unearthed:granodiorite"
+    },
+    {
+      "fluid": "minecraft:lava",
+      "nbt": {},
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "item": "unearthed:dacite"
+    }
+  ]
+}
