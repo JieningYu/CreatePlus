@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "farmersdelight:dyed_canvas_sign"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:canvas_sign"
+    }
+  ]
+}
