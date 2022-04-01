@@ -7,26 +7,19 @@
       ]
 		}
   ],
-  "type": "create:compacting",
+  "type": "create:mixing",
   "ingredients": [
-    {
-      "item": "unearthed:regolith"
-    },
-    {
-      "item": "unearthed:regolith"
-    },
     {
       "item": "unearthed:rhyolite_regolith"
     },
     {
-      "fluid": "minecraft:water",
-      "nbt": {},
-      "amount": 8100
+      "tag": "unearthed:rhyolite"
     }
   ],
   "results": [
     {
-      "item": "unearthed:weathered_rhyolite"
+      "item": "unearthed:weathered_rhyolite",
+      "count": 2
     }
   ]
 }
