@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "promenade"
+      ]
+		}
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "promenade:blueberries"
+    },
+    {
+      "fluid": "create:chocolate",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "create:chocolate_glazed_berries"
+    }
+  ]
+}
