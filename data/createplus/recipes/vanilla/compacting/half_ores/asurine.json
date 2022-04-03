@@ -1,0 +1,24 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "minecraft:tuff"
+      },
+      {
+        "item": "minecraft:tuff"
+      },
+      {
+        "item": "minecraft:andesite"
+      },
+      {
+        "fluid": "minecraft:lava",
+        "nbt": {},
+        "amount": 40500
+      }
+    ],
+    "results": [
+      {
+        "item": "create:asurine"
+      }
+    ]
+  }

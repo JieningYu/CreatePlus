@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "minecraft:dripstone_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:limestone"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 40500
+    }
+  ]
+}

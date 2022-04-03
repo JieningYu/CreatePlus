@@ -1,0 +1,73 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:polished_rose_quartz"
+  },
+  "transitionalItem": {
+    "item": "create:polished_rose_quartz"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:polished_rose_quartz"
+        },
+        {
+          "item": "minecraft:redstone_torch"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:polished_rose_quartz"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "processingTime": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "create:electron_tube",
+      "count": 4,
+      "chance": 80.0
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "chance": 15.0
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 5.0
+    }
+  ],
+  "loops": 2
+}

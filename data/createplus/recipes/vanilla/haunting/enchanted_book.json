@@ -1,0 +1,17 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:enchanted_book"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "create:experience_nugget",
+      "chance": 0.75
+    }
+  ]
+}
