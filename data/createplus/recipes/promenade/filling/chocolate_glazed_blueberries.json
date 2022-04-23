@@ -3,7 +3,8 @@
 		{
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "promenade"
+        "promenade",
+        "createplus"
       ]
 		}
   ],
@@ -20,7 +21,7 @@
   ],
   "results": [
     {
-      "item": "create:chocolate_glazed_berries"
+      "item": "createplus:chocolate_glazed_blueberries"
     }
   ]
 }
