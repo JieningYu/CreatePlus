@@ -8,3 +8,9 @@ Supported Mods:
 - Farmer's Delight
 - Alloy Forgery
 - Applied Energistics2 (AE2)
+- betternether
+- immersive weathering
+- mores
+- promenade
+- unearthed
+- universal ores
