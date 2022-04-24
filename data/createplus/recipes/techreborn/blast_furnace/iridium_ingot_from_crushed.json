@@ -8,20 +8,18 @@
       ]
 		}
   ],
-  "type": "create:crushing",
+  "type": "techreborn:blast_furnace",
+  "power": 128,
+  "time": 400,
+  "heat": 2000,
   "ingredients": [
     {
-      "tag": "c:raw_iridium_ores"
+      "item": "createplus:crushed_iridium_ore"
     }
   ],
   "results": [
     {
-      "item": "createplus:crushed_iridium_ore"
-    },
-    {
-      "item": "create:experience_nugget",
-      "chance": 0.75
+      "item": "techreborn:iridium_ingot"
     }
-  ],
-  "processingTime": 150
+  ]
 }

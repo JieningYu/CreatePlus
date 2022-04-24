@@ -11,12 +11,12 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "tag": "c:raw_iridium_ores"
+      "tag": "c:raw_tungsten_ores"
     }
   ],
   "results": [
     {
-      "item": "createplus:crushed_iridium_ore"
+      "item": "createplus:crushed_tungsten_ore"
     },
     {
       "item": "create:experience_nugget",

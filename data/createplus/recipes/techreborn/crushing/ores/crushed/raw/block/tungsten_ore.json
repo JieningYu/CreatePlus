@@ -8,20 +8,22 @@
       ]
 		}
   ],
-  "type": "create:splashing",
+  "type": "create:crushing",
   "ingredients": [
     {
-      "item": "createplus:crushed_iridium_ore"
+      "tag": "c:raw_tungsten_blocks"
     }
   ],
   "results": [
     {
-      "item": "techreborn:iridium_nugget",
+      "item": "createplus:crushed_tungsten_ore",
       "count": 9
     },
     {
-      "item": "techreborn:platinum_dust",
-      "chance": 0.25
+      "item": "create:experience_nugget",
+      "chance": 0.75,
+      "count": 9
     }
-  ]
+  ],
+  "processingTime": 350
 }
