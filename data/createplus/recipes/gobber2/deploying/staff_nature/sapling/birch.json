@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+		}
+  ],
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_sapling"
+    },
+    {
+      "item": "gobber2:gobber2_staff_nature"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:birch_sapling"
+    }
+  ],
+  "keepHeldItem": true
+}

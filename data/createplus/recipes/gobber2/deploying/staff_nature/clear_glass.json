@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+		}
+  ],
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "gobber2:gobber2_staff_nature"
+    }
+  ],
+  "results": [
+    {
+      "item": "gobber2:clear_glass"
+    }
+  ],
+  "keepHeldItem": true
+}

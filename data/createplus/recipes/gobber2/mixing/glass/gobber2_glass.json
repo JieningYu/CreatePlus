@@ -1,0 +1,46 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+		}
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_glob"
+    },
+    {
+      "tag": "c:glass/colorless"
+    },
+    {
+      "tag": "c:glass/colorless"
+    },
+    {
+      "tag": "c:glass/colorless"
+    },
+    {
+      "tag": "c:glass/colorless"
+    },
+    {
+      "tag": "c:glass/colorless"
+    },
+    {
+      "tag": "c:glass/colorless"
+    },
+    {
+      "tag": "c:glass/colorless"
+    },
+    {
+      "tag": "c:glass/colorless"
+    }
+  ],
+  "results": [
+    {
+      "item": "gobber2:gobber2_glass",
+      "count": 8
+    }
+  ]
+}

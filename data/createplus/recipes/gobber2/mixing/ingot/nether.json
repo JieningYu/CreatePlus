@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+		}
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "gobber2:gobber2_glob_nether"
+    },
+    {
+      "item": "gobber2:gobber2_ingot"
+    },
+    {
+      "item": "gobber2:gobber2_ingot"
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "results": [
+    {
+      "item": "gobber2:gobber2_ingot_nether",
+      "count": 3
+    }
+  ]
+}
