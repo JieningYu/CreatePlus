@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "alloygery"
+      ]
+		}
+  ],
+  "type": "alloygery:smithing_anvil",
+  "group": "titanium_tool_parts",
+  "hammer": {
+    "item": "alloygery:anvil_hammer"
+  },
+  "material": {
+    "item": "create:refined_radiance"
+  },
+  "material_cost": 1,
+  "result": {
+    "item": "alloygery:alloygery_binding",
+    "data": {
+      "PartMaterial": "createplus:materials/refined_radiance"
+    }
+  }
+}

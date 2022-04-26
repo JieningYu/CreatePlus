@@ -1,0 +1,78 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "alloygery"
+      ]
+		}
+  ],
+  "name": "brass",
+  "category": "metal",
+  "color": "14927216",
+  "make_tool_heads": true,
+  "make_tool_bindings": true,
+  "make_sword_guards": true,
+  "make_tool_handles": true,
+  "repair_ingredient": {
+    "tag": "c:ingots/brass"
+  },
+  "tool_base": {
+    "mining_level": 2,
+    "durability": 200,
+    "enchantability": 17,
+    "mining_speed": 7.0,
+    "attack_speed": 0.0,
+    "attack_damage": 2.5,
+    "luck": 0.5,
+    "fireproof": false,
+    "piglin_loved": false
+  },
+  "tool_binding": {
+    "mining_level": 0,
+    "durability": -50,
+    "enchantability": 0,
+    "mining_speed": -0.5,
+    "attack_speed": 0.0,
+    "attack_damage": 0.0,
+    "luck": 0.0,
+    "durability_multiplier": 1.0,
+    "enchantability_multiplier": 1.0,
+    "mining_speed_multiplier": 0.8,
+    "attack_speed_multiplier": 1.0,
+    "attack_damage_multiplier": 0.9,
+    "luck_multiplier": 1.2,
+    "fireproof": false,
+    "piglin_loved": false
+  },
+  "tool_handle": {
+    "mining_level": 0,
+    "durability": -80,
+    "enchantability": 0,
+    "mining_speed": 0.0,
+    "attack_speed": -0.1,
+    "attack_damage": 0.0,
+    "luck": 0.5,
+    "durability_multiplier": 0.8,
+    "enchantability_multiplier": 1.0,
+    "mining_speed_multiplier": 0.8,
+    "attack_speed_multiplier": 1.0,
+    "attack_damage_multiplier": 0.8,
+    "luck_multiplier": 1.0,
+    "fireproof": false,
+    "piglin_loved": false
+  },
+  "armor": {
+    "durability": 14,
+    "helmet": 2,
+    "chestplate": 6,
+    "leggings": 5,
+    "boots": 2,
+    "enchantability": 15,
+    "toughness": 0.0,
+    "knockback_resistance": 0.0,
+    "fireproof": false,
+    "piglin_loved": false,
+    "freeze_immune": false
+  }
+}

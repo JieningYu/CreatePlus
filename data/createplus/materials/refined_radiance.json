@@ -1,0 +1,78 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "alloygery"
+      ]
+		}
+  ],
+  "name": "refined_radiance",
+  "category": "metal",
+  "color": "16777206",
+  "make_tool_heads": true,
+  "make_tool_bindings": true,
+  "make_sword_guards": true,
+  "make_tool_handles": true,
+  "repair_ingredient": {
+    "item": "create:refined_radiance"
+  },
+  "tool_base": {
+    "mining_level": 3,
+    "durability": 10000,
+    "enchantability": 1.0,
+    "mining_speed": 50.0,
+    "attack_speed": 1.0,
+    "attack_damage": 0.8,
+    "luck": 0.0,
+    "fireproof": true,
+    "piglin_loved": false
+  },
+  "tool_binding": {
+    "mining_level": 0,
+    "durability": 500,
+    "enchantability": 0,
+    "mining_speed": 0.0,
+    "attack_speed": 0.5,
+    "attack_damage": 0.0,
+    "luck": 0.0,
+    "durability_multiplier": 2.0,
+    "enchantability_multiplier": 1.0,
+    "mining_speed_multiplier": 2.0,
+    "attack_speed_multiplier": 1.5,
+    "attack_damage_multiplier": 0.5,
+    "luck_multiplier": 0.0,
+    "fireproof": true,
+    "piglin_loved": false
+  },
+  "tool_handle": {
+    "mining_level": 0,
+    "durability": 1000,
+    "enchantability": 0,
+    "mining_speed": 5.0,
+    "attack_speed": 1.0,
+    "attack_damage": 0.0,
+    "luck": 0.0,
+    "durability_multiplier": 2.0,
+    "enchantability_multiplier": 1.0,
+    "mining_speed_multiplier": 1.5,
+    "attack_speed_multiplier": 2.0,
+    "attack_damage_multiplier": 0.5,
+    "luck_multiplier": 0.0,
+    "fireproof": true,
+    "piglin_loved": false
+  },
+  "armor": {
+    "durability": 10000,
+    "helmet": 1,
+    "chestplate": 1,
+    "leggings": 1,
+    "boots": 1,
+    "enchantability": 0,
+    "toughness": 10.0,
+    "knockback_resistance": 0.0,
+    "fireproof": true,
+    "piglin_loved": false,
+    "freeze_immune": true
+  }
+}

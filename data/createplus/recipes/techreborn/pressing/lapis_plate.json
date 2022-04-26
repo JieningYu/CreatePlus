@@ -10,12 +10,12 @@
     "type": "create:pressing",
     "ingredients": [
       {
-        "item": "techreborn:carbon_mesh"
+        "tag": "c:storage_blocks/lapis"
       }
     ],
     "results": [
       {
-        "item": "techreborn:carbon_plate"
+        "item": "techreborn:lapis_plate"
       }
     ]
 }

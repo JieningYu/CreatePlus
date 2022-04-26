@@ -1,0 +1,78 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "alloygery"
+      ]
+		}
+  ],
+  "name": "zinc",
+  "category": "metal",
+  "color": 15790570,
+  "make_tool_heads": true,
+  "make_tool_bindings": true,
+  "make_sword_guards": true,
+  "make_tool_handles": true,
+  "repair_ingredient": {
+    "tag": "c:ingots/zinc"
+  },
+  "tool_base": {
+    "mining_level": 2,
+    "durability": 150,
+    "enchantability": 10,
+    "mining_speed": 4.0,
+    "attack_speed": 0.0,
+    "attack_damage": 1.0,
+    "luck": 2.0,
+    "fireproof": false,
+    "piglin_loved": false
+  },
+  "tool_binding": {
+    "mining_level": 0,
+    "durability": -100,
+    "enchantability": 0,
+    "mining_speed": -2.0,
+    "attack_speed": 0.0,
+    "attack_damage": -2.5,
+    "luck": 1.0,
+    "durability_multiplier": 0.9,
+    "enchantability_multiplier": 1.0,
+    "mining_speed_multiplier": 1.1,
+    "attack_speed_multiplier": 1.0,
+    "attack_damage_multiplier": 0.4,
+    "luck_multiplier": 1.5,
+    "fireproof": false,
+    "piglin_loved": false
+  },
+  "tool_handle": {
+    "mining_level": 0,
+    "durability": 0,
+    "enchantability": 0,
+    "mining_speed": 0.0,
+    "attack_speed": -0.1,
+    "attack_damage": 2,
+    "luck": 1.0,
+    "durability_multiplier": 0.9,
+    "enchantability_multiplier": 1.0,
+    "mining_speed_multiplier": 1.0,
+    "attack_speed_multiplier": 1.0,
+    "attack_damage_multiplier": 0.8,
+    "luck_multiplier": 1.2,
+    "fireproof": false,
+    "piglin_loved": false
+  },
+  "armor": {
+    "durability": 4,
+    "helmet": 1,
+    "chestplate": 3,
+    "leggings": 2,
+    "boots": 1,
+    "enchantability": 15,
+    "toughness": 0.0,
+    "knockback_resistance": 0.0,
+    "fireproof": false,
+    "piglin_loved": false,
+    "freeze_immune": false
+  }
+}

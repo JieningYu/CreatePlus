@@ -14,3 +14,4 @@ Supported Mods:
 - Promenade
 - Unearthed
 - Universal Ores
+- Alloygery
