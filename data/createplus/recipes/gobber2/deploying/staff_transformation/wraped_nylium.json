@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+		}
+  ],
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_nylium"
+    },
+    {
+      "item": "gobber2:gobber2_staff_transformation"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:wraped_nylium"
+    }
+  ],
+  "keepHeldItem": true
+}

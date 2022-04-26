@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "gobber2"
+      ]
+		}
+  ],
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom_block"
+    },
+    {
+      "item": "gobber2:gobber2_staff_transformation"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:nether_wart_block"
+    }
+  ],
+  "keepHeldItem": true
+}

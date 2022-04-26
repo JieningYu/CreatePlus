@@ -1,5 +1,5 @@
 # CreatePlus
-A Minecraft Datapack for 1.18.1.
+A Minecraft Datapack / QuiltMod for 1.18.2.
 
 Base compatibility enchantments for Create Fabric.
 
@@ -7,10 +7,10 @@ Supported Mods:
 - Tech Reborn
 - Farmer's Delight
 - Alloy Forgery
-- Applied Energistics2 (AE2)
-- betternether
-- immersive weathering
-- mores
-- promenade
-- unearthed
-- universal ores
+- Applied Energistics 2
+- Betternether
+- Immersive Weathering
+- More Ores
+- Promenade
+- Unearthed
+- Universal Ores
