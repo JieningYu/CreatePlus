@@ -1,6 +1,6 @@
 {
-"fabric:load_conditions": [
-   {
+  "fabric:load_conditions": [
+    {
       "condition": "fabric:all_mods_loaded",
       "values": [
         "alloy_forgery"
@@ -10,22 +10,22 @@
   "type": "alloy_forgery:forging",
   "inputs": [
     {
-      "item": "create:crushed_iron_ore"
+      "tag": "c:raw_materials/zinc"
     },
-	{
-      "item": "create:crushed_iron_ore"
+    {
+      "tag": "c:raw_materials/copper"
     }
   ],
   "output": {
-    "id": "minecraft:iron_ingot",
-    "count": 3
+    "id": "create:brass_ingot",
+    "count": 1
   },
   "overrides": {
     "2+": {
-      "id": "minecraft:iron_ingot",
-      "count": 4
+      "id": "create:brass_ingot",
+      "count": 2
     }
   },
   "min_forge_tier": 1,
-  "fuel_per_tick": 3
+  "fuel_per_tick": 12
 }

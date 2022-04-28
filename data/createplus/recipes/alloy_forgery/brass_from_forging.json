@@ -10,7 +10,7 @@
   "type": "alloy_forgery:forging",
   "inputs": [
     {
-      "item": "create:zinc_ingot"
+      "tag": "c:ingots/zinc"
     },
     {
       "item": "minecraft:copper_ingot"
