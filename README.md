@@ -20,3 +20,4 @@ Supported Mods:
 - Universal Ores
 - Alloygery
 - Mythic Metals
+- Ecologics
