@@ -19,3 +19,4 @@ Supported Mods:
 - Unearthed
 - Universal Ores
 - Alloygery
+- Mythic Metals
