@@ -18,6 +18,9 @@ Supported Mods:
 - Promenade
 - Unearthed
 - Universal Ores
+- Gobber 2
 - Alloygery
 - Mythic Metals
 - Ecologics
+- Croptopia
+- Architects' Palette

@@ -7,7 +7,7 @@
       ]
 		}
   ],
-  "type": "create:crushing",
+  "type": "create:milling",
   "ingredients": [
     {
       "item": "croptopia:salt_ore"
