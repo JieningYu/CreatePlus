@@ -24,3 +24,6 @@ Supported Mods:
 - Ecologics
 - Croptopia
 - Architects' Palette
+- More Geodes
+- The Bumblezone
+- Go Fish
