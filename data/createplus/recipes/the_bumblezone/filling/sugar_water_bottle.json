@@ -1,0 +1,26 @@
+{
+    "fabric:load_conditions": [
+        {
+           "condition": "fabric:all_mods_loaded",
+           "values": [
+             "the_bumblezone"
+           ]
+         }
+       ],
+    "type": "create:filling",
+    "ingredients": [
+      {
+        "item": "minecraft:glass_bottle"
+      },
+      {
+        "fluid": "the_bumblezone:sugar_water_still",
+        "nbt": {},
+        "amount": 27000
+      }
+    ],
+    "results": [
+      {
+        "item": "the_bumblezone:sugar_water_bottle"
+      }
+    ]
+  }

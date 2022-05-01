@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+     "condition": "fabric:all_mods_loaded",
+     "values": [
+       "the_bumblezone"
+     ]
+   }
+  ],
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "the_bumblezone:filled_porous_honeycomb_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "the_bumblezone:porous_honeycomb_block"
+    },
+    {
+      "fluid": "create:honey",
+      "amount": 27000
+    }
+  ]
+}

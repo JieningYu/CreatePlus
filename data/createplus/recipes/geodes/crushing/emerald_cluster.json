@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "geodes"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "geodes:emerald_cluster"
+    }
+  ],
+  "results": [
+    {
+      "item": "geodes:emerald_shard",
+      "count": 9
+    },
+    {
+      "item": "geodes:emerald_shard",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 150
+}

@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "the_bumblezone"
+       ]
+     }
+   ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "the_bumblezone:sugar_water_still",
+      "nbt": {},
+      "amount": 27000
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "heatRequirement": "heated"
+}

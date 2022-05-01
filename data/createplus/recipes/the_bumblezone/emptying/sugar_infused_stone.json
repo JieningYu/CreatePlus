@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+     "condition": "fabric:all_mods_loaded",
+     "values": [
+       "the_bumblezone"
+     ]
+   }
+  ],
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "the_bumblezone:sugar_infused_stone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "fluid": "the_bumblezone:sugar_water_still",
+      "amount": 27000
+    }
+  ]
+}
