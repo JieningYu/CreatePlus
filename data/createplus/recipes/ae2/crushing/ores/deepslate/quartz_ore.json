@@ -28,7 +28,7 @@
     },
     {
       "item": "minecraft:cobbled_deepslate",
-      "chance": 0.12
+      "chance": 0.125
     }
   ],
   "processingTime": 350

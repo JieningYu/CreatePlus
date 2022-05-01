@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "techreborn:deepslate_silver_ore",
+            "required": false
+        }
+    ]
+}

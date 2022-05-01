@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "mythicmetals:osmium_ore",
+            "required": false
+        }
+    ]
+}

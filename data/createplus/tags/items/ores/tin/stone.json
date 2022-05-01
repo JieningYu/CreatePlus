@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "alloygery:tin_ore",
+            "required": false
+        },
+        {
+            "id": "techreborn:tin_ore",
+            "required": false
+        },
+        {
+            "id": "mythicmetals:tin_ore",
+            "required": false
+        }
+    ]
+}

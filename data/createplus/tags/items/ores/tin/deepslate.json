@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "alloygery:deepslate_tin_ore",
+            "required": false
+        },
+        {
+            "id": "techreborn:deepslate_tin_ore",
+            "required": false
+        }
+    ]
+}
