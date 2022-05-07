@@ -8,6 +8,10 @@
         {
             "id": "mythicmetals:silver_ore",
             "required": false
+        },
+        {
+            "id": "modern_industrialization:silver_ore",
+            "required": false
         }
     ]
 }

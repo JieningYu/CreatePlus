@@ -12,6 +12,10 @@
         {
             "id": "mythicmetals:tin_ore",
             "required": false
+        },
+        {
+            "id": "modern_industrialization:tin_ore",
+            "required": false
         }
     ]
 }

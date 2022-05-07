@@ -4,6 +4,10 @@
         {
             "id": "techreborn:lead_ore",
             "required": false
+        },
+        {
+            "id": "modern_industrialization:lead_ore",
+            "required": false
         }
     ]
 }

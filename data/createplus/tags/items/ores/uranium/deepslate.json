@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "modern_industrialization:deepslate_uranium_ore",
+            "required": false
+        }
+    ]
+}

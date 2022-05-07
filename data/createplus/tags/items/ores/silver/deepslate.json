@@ -4,6 +4,10 @@
         {
             "id": "techreborn:deepslate_silver_ore",
             "required": false
+        },
+        {
+            "id": "modern_industrialization:deepslate_silver_ore",
+            "required": false
         }
     ]
 }
