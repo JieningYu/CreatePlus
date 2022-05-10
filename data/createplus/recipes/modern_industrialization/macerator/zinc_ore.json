@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+		}
+  ],
+  "type": "modern_industrialization:macerator",
+  "eu": 2,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "tag": "c:ores/zinc",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "create:raw_zinc",
+      "amount": 3
+    }
+  ]
+}

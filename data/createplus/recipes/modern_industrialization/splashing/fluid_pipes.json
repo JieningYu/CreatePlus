@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+       "condition": "fabric:all_mods_loaded",
+       "values": [
+         "modern_industrialization"
+       ]
+     }
+   ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "modern_industrialization:fluid_pipes"
+    }
+  ],
+  "results": [
+    {
+      "item": "modern_industrialization:fluid_pipe"
+    }
+  ]
+}

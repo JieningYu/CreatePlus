@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+		}
+  ],
+  "type": "modern_industrialization:macerator",
+  "eu": 2,
+  "duration": 100,
+  "item_inputs": {
+      "tag" : "c:crops/wheat",
+    "amount": 1
+  },
+  "item_outputs": {
+    "item": "create:wheat_flour",
+    "amount": 2
+  }
+}

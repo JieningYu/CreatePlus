@@ -1,0 +1,1 @@
+{"fabric:load_conditions":[{"condition":"fabric:all_mods_loaded","values":["modern_industrialization"]}],"results":[{"item":"modern_industrialization:aluminum_plate"}],"type":"create:pressing","ingredients":[{"tag":"c:aluminum_ingots"}]}

@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+		}
+  ],
+  "type": "modern_industrialization:forge_hammer",
+  "eu": 0,
+  "duration": 0,
+  "item_inputs": [
+    {
+      "tag": "c:ingots/brass",
+      "amount": 2
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "create:brass_sheet",
+      "amount": 1
+    }
+  ]
+}

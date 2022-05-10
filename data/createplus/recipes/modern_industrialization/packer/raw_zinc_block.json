@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+    }
+  ],
+  "type": "modern_industrialization:packer",
+  "eu": 2,
+  "duration": 100,
+  "item_inputs": [
+    {
+      "tag": "c:raw_materials/zinc",
+      "amount": 9
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "create:raw_zinc_block",
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"fabric:load_conditions":[{"condition":"fabric:all_mods_loaded","values":["modern_industrialization"]}],"results":[{"item":"modern_industrialization:invar_double_ingot"}],"type":"create:compacting","ingredients":[{"tag":"c:invar_ingots"},{"tag":"c:invar_ingots"}]}

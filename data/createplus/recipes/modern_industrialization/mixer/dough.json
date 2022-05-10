@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+    }
+  ],
+  "type": "modern_industrialization:mixer",
+  "eu": 2,
+  "duration": 400,
+  "item_inputs":
+    {
+      "tag": "c:flour",
+      "amount": 1
+    },
+  "fluid_inputs": {
+    "fluid" : "minecraft:water",
+    "amount":1000
+  },
+  "item_outputs": {
+    "item": "create:dough",
+    "amount": 1
+  }
+}

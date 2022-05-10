@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+		}
+  ],
+  "type": "modern_industrialization:compressor",
+  "eu": 2,
+  "duration": 200,
+  "item_inputs": [
+    {
+      "item": "create:andesite_casing",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "create:depot",
+      "amount": 1
+    }
+  ]
+}

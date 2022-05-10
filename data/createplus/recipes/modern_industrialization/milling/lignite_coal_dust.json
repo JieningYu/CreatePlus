@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "modern_industrialization:lignite_coal_dust"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:coke"
+    }
+  ],
+  "processingTime": 300
+}

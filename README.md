@@ -27,3 +27,4 @@ Supported Mods:
 - More Geodes
 - The Bumblezone
 - Go Fish
+- Modern Industrialization

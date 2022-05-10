@@ -1,0 +1,24 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modern_industrialization"
+      ]
+		}
+  ],
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "tag": "c:copper_ingots"
+    },
+    {
+      "tag": "c:copper_ingots"
+    }
+  ],
+  "results": [
+    {
+      "item": "modern_industrialization:copper_double_ingot"
+    }
+  ]
+}
