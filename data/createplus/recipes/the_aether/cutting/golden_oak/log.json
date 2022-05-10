@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "the_aether"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "the_aether:golden_oak_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "the_aether:stripped_golden_oak_log"
+    },
+    {
+      "item": "minecraft:gold_nugget",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 50
+}

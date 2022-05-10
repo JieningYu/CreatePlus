@@ -28,3 +28,4 @@ Supported Mods:
 - The Bumblezone
 - Go Fish
 - Modern Industrialization
+- Paradise Lost

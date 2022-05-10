@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+     "condition": "fabric:all_mods_loaded",
+     "values": [
+       "the_aether"
+     ]
+   }
+  ],
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "the_aether:skyroot_water_bucket"
+    }
+  ],
+  "results": [
+    {
+      "item": "the_aether:skyroot_bucket"
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 81000
+    }
+  ]
+}

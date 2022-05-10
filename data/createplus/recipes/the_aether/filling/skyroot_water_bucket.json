@@ -3,25 +3,24 @@
 		{
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "promenade",
-        "createplus"
+        "the_aether"
       ]
 		}
   ],
   "type": "create:filling",
   "ingredients": [
     {
-      "item": "promenade:blueberries"
+      "item": "the_aether:skyroot_bucket"
     },
     {
-      "fluid": "create:chocolate",
+      "fluid": "minecraft:water",
       "nbt": {},
-      "amount": 27000
+      "amount": 81000
     }
   ],
   "results": [
     {
-      "item": "createplus:chocolate_glazed_blueberries"
+      "item": "the_aether:skyroot_water_bucket"
     }
   ]
 }

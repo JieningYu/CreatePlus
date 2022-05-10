@@ -4,6 +4,26 @@
         {
             "id": "ecologics:azalea_flower",
             "required": false
+        },
+        {
+            "id": "the_aether:ancient_flower",
+            "required": false
+        },
+        {
+            "id": "the_aether:ataraxia",
+            "required": false
+        },
+        {
+            "id": "the_aether:cloudsbluff",
+            "required": false
+        },
+        {
+            "id": "the_aether:drigean",
+            "required": false
+        },
+        {
+            "id": "the_aether:luminar",
+            "required": false
         }
     ]
 }

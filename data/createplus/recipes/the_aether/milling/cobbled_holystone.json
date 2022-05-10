@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "the_aether"
+      ]
+		}
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "the_aether:cobbled_holystone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gravel",
+      "count": 1
+    }
+  ],
+  "processingTime": 250
+}

@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "the_aether"
+      ]
+		}
+  ],
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "the_aether:skyroot_bucket"
+    },
+    {
+      "fluidTag": "c:milk",
+      "nbt": {},
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "item": "the_aether:skyroot_milk_bucket"
+    }
+  ]
+}
