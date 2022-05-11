@@ -1,4 +1,4 @@
-# CreatePlus
+# CreatePlus for Fabric/QSL Enviorment
 A Minecraft Datapack / QuiltMod for 1.18.2.
 
 [Quilt Mod HERE](https://github.com/JieningYu/createplus-mod)
@@ -28,4 +28,3 @@ Supported Mods:
 - The Bumblezone
 - Go Fish
 - Modern Industrialization
-- Paradise Lost
