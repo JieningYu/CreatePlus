@@ -10,10 +10,10 @@
   "type": "create:compacting",
   "ingredients": [
     {
-      "tag": "c:copper_ingots"
+      "tag": "c:ingots/copper"
     },
     {
-      "tag": "c:copper_ingots"
+      "tag": "c:ingots/copper"
     }
   ],
   "results": [

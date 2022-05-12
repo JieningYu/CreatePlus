@@ -3,20 +3,22 @@
 		{
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "modern_industrialization"
+        "twigs"
       ]
 		}
   ],
-  "type": "create:crushing",
+  "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "c:ingots/copper"
+      "tag": "c:nuggets/iron"
+    },
+    {
+      "tag": "c:gems/quartz"
     }
   ],
   "results": [
     {
-      "item": "modern_industrialization:copper_dust"
+      "item": "twigs:bloodstone"
     }
-  ],
-  "processingTime": 450
+  ]
 }

@@ -1,0 +1,74 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
+  "transitionalItem": {
+    "item": "minecraft:blackstone"
+  },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:blackstone"
+        },
+        {
+          "item": "minecraft:nether_wart"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:blackstone"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "amount": 20250
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:blackstone"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "minecraft:blackstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:blackstone"
+        }
+      ],
+      "processingTime": 50
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherrack",
+      "count": 1,
+      "chance": 80.0
+    },
+    {
+      "item": "minecraft:blackstone",
+      "chance": 15.0
+    },
+    {
+      "item": "minecraft:nether_wart_block",
+      "chance": 5.0
+    }
+  ],
+  "loops": 2
+}

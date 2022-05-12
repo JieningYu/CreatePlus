@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "twigs"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "twigs:waxed_copper_pillar"
+    }
+  ],
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "twigs:copper_pillar"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  ],
+  "keepHeldItem": true
+}
