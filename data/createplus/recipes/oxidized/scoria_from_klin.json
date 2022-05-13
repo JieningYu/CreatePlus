@@ -1,0 +1,17 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "oxidized"
+      ]
+		}
+  ],
+  "type": "oxidized:kiln_smelting",
+  "ingredient": {
+    "item": "minecraft:soul_sand"
+  },
+  "result": "create:scoria",
+  "experience": 0.1,
+  "cookingtime": 100
+}

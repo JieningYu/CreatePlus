@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "oxidized"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "oxidized:waxed_vertical_oxidized_cut_copper"
+    }
+  ],
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "oxidized:vertical_oxidized_cut_copper"
+    },
+    {
+      "item": "minecraft:honeycomb_block"
+    }
+  ],
+  "keepHeldItem": true
+}
