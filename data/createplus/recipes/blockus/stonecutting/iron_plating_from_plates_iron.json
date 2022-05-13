@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "blockus"
+      ]
+		}
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "c:plates/iron"
+  },
+  "result": "blockus:iron_plating",
+  "count": 4
+}

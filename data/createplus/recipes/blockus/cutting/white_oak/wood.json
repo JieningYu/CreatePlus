@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "blockus"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "blockus:white_oak_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "blockus:stripped_white_oak_wood"
+    }
+  ],
+  "processingTime": 50
+}
