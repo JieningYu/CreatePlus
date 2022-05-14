@@ -1,11 +1,9 @@
-# CreatePlus for Fabric/QSL Enviorment
-A Minecraft Datapack / QuiltMod for 1.18.2.
+# CreatePlus for Fabric/QSL Environment
+A Minecraft Datapack / QuiltMod for 1.18.2 for enhancing the compatabity of [Create Farbic](https://github.com/Fabricators-of-Create/Create).
 
 [Quilt Mod HERE](https://github.com/JieningYu/createplus-mod)
 
 NOTE: The mod is not completed yet and it depends on this datapack.
-
-Base compatibility enchantments for Create Fabric.
 
 Supported Mods:
 - Tech Reborn

@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+		}
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "byg:quartzite_sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:quartz",
+      "chance": 0.15
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "byg:pendorite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:pendorite_scraps",
+      "count": 1
+    },
+    {
+      "item": "byg:pendorite_scraps",
+      "chance": 0.25
+    },
+    {
+      "item": "byg:blue_netherrack",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 500
+}

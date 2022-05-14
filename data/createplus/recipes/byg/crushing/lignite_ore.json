@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "byg:lignite_ore"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:lignite",
+      "count": 6
+    },
+    {
+      "item": "byg:lignite",
+      "chance": 0.25
+    },
+    {
+      "item": "byg:cobbled_ether_stone",
+      "chance": 0.125
+    }
+  ],
+  "processingTime": 350
+}

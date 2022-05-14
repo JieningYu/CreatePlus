@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "byg:ametrine_cluster"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:ametrine_gems",
+      "count": 2
+    },
+    {
+      "item": "byg:ametrine_gems",
+      "chance": 0.50
+    }
+  ],
+  "processingTime": 350
+}

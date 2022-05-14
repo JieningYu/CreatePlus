@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+		}
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "byg:blue_sandstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:blue_sand"
+    }
+  ],
+  "processingTime": 150
+}
