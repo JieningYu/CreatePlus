@@ -10,17 +10,17 @@
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "byg:blue_sand"
+      "item": "byg:windswept_sand"
     }
   ],
   "results": [
     {
-      "item": "minecraft:clay_ball",
-      "chance": 0.25
+      "item": "minecraft:sand",
+      "chance": 0.65
     },
     {
-      "item": "minecraft:lapis_lazuli",
-      "chance": 0.45
+      "item": "minecraft:hanging_roots",
+      "chance": 0.05
     }
   ]
 }

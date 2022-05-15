@@ -1,0 +1,1 @@
+{"fabric:load_conditions":[{"condition":"fabric:all_mods_loaded","values":["byg"]}],"results":[{"item":"byg:stripped_willow_wood"}],"type":"create:cutting","ingredients":[{"item":"byg:willow_wood"}],"processingTime":50}

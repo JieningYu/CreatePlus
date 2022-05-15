@@ -7,20 +7,21 @@
       ]
 		}
   ],
-  "type": "create:splashing",
+  "type": "create:milling",
   "ingredients": [
     {
-      "item": "byg:blue_sand"
+      "tag": "byg:white_dye"
     }
   ],
   "results": [
     {
-      "item": "minecraft:clay_ball",
-      "chance": 0.25
+      "item": "minecraft:white_dye",
+      "count": 2
     },
     {
-      "item": "minecraft:lapis_lazuli",
-      "chance": 0.45
+      "item": "minecraft:light_gray_dye",
+      "chance": 0.1
     }
-  ]
+  ],
+  "processingTime": 50
 }

@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "byg:aspen_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "byg:stripped_aspen_log"
+    }
+  ],
+  "processingTime": 50
+}

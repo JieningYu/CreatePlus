@@ -1,0 +1,1 @@
+{"fabric:load_conditions":[{"condition":"fabric:all_mods_loaded","values":["byg"]}],"results":[{"item":"byg:stripped_baobab_log"}],"type":"create:cutting","ingredients":[{"item":"byg:baobab_log"}],"processingTime":50}

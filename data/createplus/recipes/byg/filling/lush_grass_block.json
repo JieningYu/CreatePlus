@@ -7,20 +7,20 @@
       ]
 		}
   ],
-  "type": "create:splashing",
+  "type": "create:filling",
   "ingredients": [
     {
-      "item": "byg:blue_sand"
+      "item": "byg:lush_dirt"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 45000
     }
   ],
   "results": [
     {
-      "item": "minecraft:clay_ball",
-      "chance": 0.25
-    },
-    {
-      "item": "minecraft:lapis_lazuli",
-      "chance": 0.45
+      "item": "byg:lush_grass_block"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+    "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "byg"
+      ]
+		}
+	],
+    "type": "create:pressing",
+    "ingredients": [
+      {
+        "item": "byg:lush_dirt"
+      }
+    ],
+    "results": [
+      {
+        "item": "byg:lush_grass_path"
+      }
+    ]
+}
