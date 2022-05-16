@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomemakeover"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomemakeover:blighted_balsa_wood"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomemakeover:stripped_blighted_balsa_wood"
+    }
+  ],
+  "processingTime": 50
+}

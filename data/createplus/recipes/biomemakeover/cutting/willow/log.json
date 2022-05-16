@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomemakeover"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomemakeover:willow_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomemakeover:stripped_willow_log"
+    }
+  ],
+  "processingTime": 50
+}

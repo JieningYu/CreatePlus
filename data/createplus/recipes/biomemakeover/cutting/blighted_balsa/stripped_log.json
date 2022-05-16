@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomemakeover"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "biomemakeover:stripped_blighted_balsa_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomemakeover:blighted_balsa_planks",
+      "count": 6
+    }
+  ],
+  "processingTime": 50
+}

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomemakeover"
+      ]
+		}
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "biomemakeover:marigold"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:orange_dye",
+      "count": 4
+    },
+    {
+      "item": "minecraft:lime_dye",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 100
+}

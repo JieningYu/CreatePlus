@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "biomemakeover"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "biomemakeover:illunite_cluster"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomemakeover:illunite_shard",
+      "count": 3
+    },
+    {
+      "item": "biomemakeover:illunite_shard",
+      "chance": 0.50
+    }
+  ],
+  "processingTime": 250
+}
