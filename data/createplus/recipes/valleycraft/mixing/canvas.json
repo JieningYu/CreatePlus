@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "valley"
+      ]
+		}
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "valley:plant_fiber"
+    },
+    {
+      "item": "valley:plant_fiber"
+    },
+    {
+      "item": "valley:plant_fiber"
+    },
+    {
+      "item": "valley:plant_fiber"
+    },
+    {
+      "item": "valley:plant_fiber"
+    },
+    {
+      "item": "valley:plant_fiber"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "valley:canvas",
+      "count": 1
+    }
+  ]
+}

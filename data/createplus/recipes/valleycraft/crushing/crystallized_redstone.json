@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "valley"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "valley:crystallized_redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "count": 13
+    },
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.75
+    }
+  ],
+  "processingTime": 150
+}

@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "valley"
+      ]
+		}
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "valley:puff_ball"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:string",
+      "count": 3
+    },
+    {
+      "item": "minecraft:string",
+      "chance": 0.50
+    }
+  ],
+  "processingTime": 50
+}
