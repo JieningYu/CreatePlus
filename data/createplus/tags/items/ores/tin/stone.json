@@ -10,6 +10,10 @@
             "required": false
         },
         {
+            "id": "indrev:tin_ore",
+            "required": false
+        },
+        {
             "id": "mythicmetals:tin_ore",
             "required": false
         },

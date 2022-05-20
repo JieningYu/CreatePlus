@@ -10,6 +10,10 @@
             "required": false
         },
         {
+            "id": "indrev:deepslate_tin_ore",
+            "required": false
+        },
+        {
             "id": "modern_industrialization:deepslate_tin_ore",
             "required": false
         }

@@ -3,23 +3,23 @@
 		{
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "techreborn"
+        "indrev"
       ]
 		}
   ],
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "create:crushed_lead_ore"
+      "item": "create:crushed_tin_ore"
     }
   ],
   "results": [
     {
-      "item": "techreborn:lead_nugget",
+      "item": "indrev:tin_nugget",
       "count": 9
     },
     {
-      "item": "createplus:zinc_dust",
+      "item": "indrev:tin_dust",
       "chance": 0.25
     }
   ]
