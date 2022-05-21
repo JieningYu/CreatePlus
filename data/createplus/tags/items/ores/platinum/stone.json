@@ -1,13 +1,5 @@
 {
     "replace": false,
     "values": [
-        {
-            "id": "mythicmetals:platinum_ore",
-            "required": false
-        },
-        {
-            "id": "modern_industrialization:platinum_ore",
-            "required": false
-        }
     ]
 }

@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "indrev:lead_ore",
+            "id": "indrev:raw_silver_block",
             "required": false
         }
     ]

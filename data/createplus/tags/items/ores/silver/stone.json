@@ -2,19 +2,7 @@
     "replace": false,
     "values": [
         {
-            "id": "techreborn:silver_ore",
-            "required": false
-        },
-        {
             "id": "indrev:silver_ore",
-            "required": false
-        },
-        {
-            "id": "mythicmetals:silver_ore",
-            "required": false
-        },
-        {
-            "id": "modern_industrialization:silver_ore",
             "required": false
         }
     ]

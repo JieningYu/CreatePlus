@@ -1,9 +1,5 @@
 {
     "replace": false,
     "values": [
-        {
-            "id": "alloygery:nickel_ore",
-            "required": false
-        }
     ]
 }

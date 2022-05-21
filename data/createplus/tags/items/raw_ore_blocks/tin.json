@@ -4,6 +4,10 @@
         {
             "id": "alloygery:raw_tin_block",
             "required": false
+        },
+        {
+            "id": "indrev:raw_tin_block",
+            "required": false
         }
     ]
 }
