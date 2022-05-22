@@ -1,0 +1,25 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+    }
+  ],
+  "type": "indrev:infuse",
+  "ingredients": [
+    {
+      "tag": "c:dusts/zinc"
+    },
+    {
+      "tag": "c:copper_dusts",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "createplus:brass_dust",
+    "count": 3
+  },
+  "processTime": 300
+}

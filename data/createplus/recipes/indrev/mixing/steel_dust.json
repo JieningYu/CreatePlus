@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+		}
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:iron_dusts"
+    },
+    {
+      "tag": "c:coal_dusts"
+    }
+  ],
+  "results": [
+    {
+      "item": "indrev:steel_ingot",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "none"
+}

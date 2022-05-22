@@ -34,3 +34,4 @@ Supported Mods:
 - Cave Enhancements
 - Twigs
 - Oh The Biomes You’ll Go
+- Industrial Revolution

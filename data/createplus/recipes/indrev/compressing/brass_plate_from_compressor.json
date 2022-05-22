@@ -1,0 +1,11 @@
+{
+  "type": "indrev:compress",
+  "ingredients": {
+    "tag": "c:ingots/brass"
+  },
+  "output": {
+    "item": "create:brass_sheet",
+    "count": 1
+  },
+  "processTime": 400
+}

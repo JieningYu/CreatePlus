@@ -1,0 +1,26 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "indrev"
+      ]
+		}
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:diamond_dusts"
+    },
+    {
+      "item": "indrev:nikolite_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "indrev:enriched_nikolite_dust",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "none"
+}
