@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "liroth"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "liroth:japz_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "liroth:stripped_japz_log"
+    }
+  ],
+  "processingTime": 50
+}

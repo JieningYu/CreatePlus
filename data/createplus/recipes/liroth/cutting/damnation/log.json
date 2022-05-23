@@ -1,0 +1,22 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "liroth"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "liroth:damnation_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "liroth:stripped_damnation_log"
+    }
+  ],
+  "processingTime": 50
+}

@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "liroth"
+      ]
+		}
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "liroth:stripped_petrified_damnation_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "liroth:petrified_damnation_planks",
+      "count": 6
+    }
+  ],
+  "processingTime": 50
+}
