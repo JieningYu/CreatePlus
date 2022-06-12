@@ -9,25 +9,25 @@
    ],
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "ae2:printed_silicon"
+    "item": "ae2:printed_calculation_processor"
   },
   "transitionalItem": {
-    "item": "ae2:printed_silicon"
+    "item": "ae2:printed_calculation_processor"
   },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "ae2:printed_silicon"
+          "item": "ae2:printed_calculation_processor"
         },
         {
-          "item": "ae2:printed_calculation_processor"
+          "item": "ae2:printed_silicon"
         }
       ],
       "results": [
         {
-          "item": "ae2:printed_silicon"
+          "item": "ae2:printed_calculation_processor"
         }
       ],
       "keepHeldItem": false
@@ -36,7 +36,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "ae2:printed_silicon"
+          "item": "ae2:printed_calculation_processor"
         },
         {
           "tag": "c:dusts/redstone"
@@ -44,7 +44,7 @@
       ],
       "results": [
         {
-          "item": "ae2:printed_silicon"
+          "item": "ae2:printed_calculation_processor"
         }
       ],
       "keepHeldItem": false
@@ -53,12 +53,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "ae2:printed_silicon"
+          "item": "ae2:printed_calculation_processor"
         }
       ],
       "results": [
         {
-          "item": "ae2:printed_silicon"
+          "item": "ae2:printed_calculation_processor"
         }
       ]
     }
@@ -69,7 +69,7 @@
       "chance": 80
     },
     {
-      "item": "ae2:printed_silicon",
+      "item": "ae2:printed_calculation_processor",
       "chance": 10
     },
     {
