@@ -10,12 +10,12 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "biomemakeover:stripped_ancient_log_wood"
+      "item": "biomemakeover:stripped_ancient_wood"
     }
   ],
   "results": [
     {
-      "item": "biomemakeover:ancient_log_planks",
+      "item": "biomemakeover:ancient_planks",
       "count": 6
     }
   ],

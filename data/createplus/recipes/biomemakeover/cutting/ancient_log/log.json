@@ -10,12 +10,12 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "biomemakeover:ancient_log_log"
+      "item": "biomemakeover:ancient_log"
     }
   ],
   "results": [
     {
-      "item": "biomemakeover:stripped_ancient_log_log"
+      "item": "biomemakeover:stripped_ancient_log"
     }
   ],
   "processingTime": 50

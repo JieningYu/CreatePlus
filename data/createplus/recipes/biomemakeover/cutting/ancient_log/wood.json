@@ -10,12 +10,12 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "biomemakeover:ancient_log_wood"
+      "item": "biomemakeover:ancient_wood"
     }
   ],
   "results": [
     {
-      "item": "biomemakeover:stripped_ancient_log_wood"
+      "item": "biomemakeover:stripped_ancient_wood"
     }
   ],
   "processingTime": 50
